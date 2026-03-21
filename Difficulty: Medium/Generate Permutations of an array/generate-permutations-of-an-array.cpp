@@ -1,30 +1,29 @@
 class Solution {
-  public:
+public:
     vector<vector<int>> ans;
-    vector<int> ds;
-    void dfs(vector<int>&arr, int idx, unordered_map<int, int>& mp){
-        
-        if(idx >= arr.size()){
-            ans.emplace_back(ds);
-            return ;
+    vector<int> path;
+    function<void(vector<int>&, vector<int>&, unordered_map<int, bool>&)> dfs =
+    [&](vector<int>& path, vector<int>& arr, unordered_map<int, bool>& mp){
+        if(path.size() == arr.size()){
+            ans.emplace_back(path);
+            return;
         }
-        
         for(int i = 0; i < arr.size(); i++){
-            if(!mp[arr[i]]){
-                ds.emplace_back(arr[i]);
-                mp[arr[i]] = 1;
-                dfs(arr, idx + 1, mp);
-                ds.pop_back();
-                mp[arr[i]] = 0;
+            if(!mp[i]){
+                path.emplace_back(arr[i]);
+                mp[i] = true;
+                dfs(path, arr, mp);
+                path.pop_back();
+                mp[i] = false;
             }
         }
-    }
+    };
     vector<vector<int>> permuteDist(vector<int>& arr) {
-        unordered_map<int, int>mp;
-        for(auto& num : arr){
-            mp[num] = 0;
+        unordered_map<int, bool> mp;
+        for(int i = 0; i < arr.size(); i++){
+            mp[i] = false;
         }
-        dfs(arr, 0, mp);
+        dfs(path, arr, mp);
         return ans;
     }
 };
