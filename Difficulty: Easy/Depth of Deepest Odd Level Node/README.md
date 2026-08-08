@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/depth-of-node/1?page=2&category=Tree&sortBy=difficulty">Depth of Deepest Odd Level Node</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">A binary tree of size <strong data-start="83" data-end="88">n</strong> is provided. Find the depth of the deepest leaf node present at an odd level. </span></p>
+<ul>
+<li><span style="font-size: 14pt;">If no leaf exists at an odd level, return 0. The root is considered to be at level 1. </span></li>
+<li><span style="font-size: 14pt;">The depth of a leaf node is the number of nodes on the path from the root to that leaf, including both the root and the leaf.</span></li>
+</ul>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">root = [1, 2, 3, 4, 5, 6, 7]</span><strong><span style="font-size: 18px;"><br></span></strong><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932781/Web/Other/blobid1_1785995161.png" width="227" height="163"><br><strong><span style="font-size: 18px;">Output: </span></strong><span style="font-size: 18px;">3</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>In the above tree 4, 5, 6 and 7 are</span> <span style="font-size: 18px;">odd level leaf nodes at depth 3. So the answer is 3.</span>
+</pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">root = [1, 2, 4]</span>
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932781/Web/Other/blobid2_1785995331.png" width="133" height="123"><br><span style="font-size: 18px;"><strong style="font-size: 18px;">Output:</strong><span style="font-size: 18px;"> 0<br></span><span style="font-size: 14pt;"><strong>Explanation: </strong>In the above tree, no leaf node is at odd level</span><span style="font-size: 18px;"><span style="font-size: 14pt;">. So the answer is 0.</span></span></span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;
