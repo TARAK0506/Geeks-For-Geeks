@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/k-ary-tree1235/1?page=2&category=Tree&sortBy=difficulty">Count Leaves in a Perfect n-ary Tree</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Count leaf nodes in a perfect <strong>n-ary</strong> tree of height <strong>m</strong>. A perfect n-ary tree is a specialized hierarchical data structure where every internal node has exactly n children, and all leaf nodes exist at the exact same depth.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong> You have to return the answer module 10<sup>9</sup>+7.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong> n</span><span style="font-size: 18px;"><strong> = </strong>2, m<strong> = </strong>2</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">4</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">A full Binary tree of height 2 has 4 leaf nodes.</span> </pre>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong> n</span><span style="font-size: 18px;"><strong> = </strong>2, m<strong> = </strong>1</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">2</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">A full Binary tree of height 1 has 2 leaf nodes.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 ≤ k, m ≤ 10<sup>8</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;
