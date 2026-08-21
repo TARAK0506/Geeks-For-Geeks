@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/two-mirror-trees/1">Two Mirror Trees</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p class="PDq2pG_selectionAnchorContainer" data-start="104" data-end="210"><span style="font-size: 14pt;">Given two binary trees, find if the two trees are mirror images of each other. </span><span style="font-size: 14pt;">Two binary trees are considered mirrors if:</span></p>
+<ul data-start="256" data-end="465">
+<li data-section-id="1sfnqhv" data-start="256" data-end="295"><span style="font-size: 14pt;"> Their root nodes have the same value. </span></li>
+<li data-section-id="nrv3cn" data-start="296" data-end="380"><span style="font-size: 14pt;"> The left subtree of one tree is the mirror of the right subtree of the other tree. </span></li>
+<li data-section-id="17z2oxj" data-start="381" data-end="465"><span style="font-size: 14pt;"> The right subtree of one tree is the mirror of the left subtree of the other tree.</span><span style="font-size: 18px;">&nbsp; &nbsp;</span></li>
+</ul>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932546/Web/Other/blobid0_1785323746.jpg" width="301" height="151"></strong>
+<strong>Output: </strong>true<br><strong>Explanation:</strong> Given pairs of binary tree are mirror of each other.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input:<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932577/Web/Other/blobid0_1785388682.jpg" width="317" height="159"></strong>
+<strong>Output: </strong>false<br></span><strong style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation:</strong><span style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">  Given pairs of binary tree are not mirror of each other.</span></pre>
+</div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<code>Hike</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;
