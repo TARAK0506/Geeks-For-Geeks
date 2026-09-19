@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/large-factorial4721/1">Factorial of Array under Modulo</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">You are given an array <strong>arr[]</strong> of integers of length <strong>n</strong>. You need to calculate&nbsp;factorial of each number.&nbsp;The answer can be very large, so print it modulo <strong>10<sup>9&nbsp;</sup>+ 7</strong>.</span></p><p><span style="font-size: 18px;"><strong>Examples:</strong></span></p><pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [0, 1, 2, 3, 4]
+<strong>Output: </strong>1 1 2 6 24
+<strong>Explanation: </strong>factorial of 0 is 1, factorial of 1 is 1, factorial of 2 is 2, factorial of 3 is 6 and so on.
+</span></pre><pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [5, 6, 3]
+<strong>Output: </strong>120 720 6
+<strong>Explanation: </strong>factorial of 5 is 120, factorial of 6 is 720, factorial of 3 is 6.</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Mathematics</code>&nbsp;
